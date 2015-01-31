@@ -1,2 +1,6 @@
 # WP-latest-update-modified-date-showing-in-header-or-another-position
-WP latest update/modified date showing in header or another position.
+প্রথমে থিমের function.php ফাইলের একদম শেষে আমার দেয়া main.php ফাইলের সবগুলো কোড বসিয়ে দিন। এবার আপনি হেডার/ফুটার অথবা সাইটের যেখানে মডিফাইড তারিখটা বসাতে চাচ্ছেন সেখানে নিচের কোডটি বসিয়ে নিন
+
+<?php site_last_modified();?>
+
+যদি নিজের মতো করে ডেট ফরম্যাট ব্যবহার করতে চান তাহলে উপরের লাইনে প্রয়োজন মতো পরিবর্তন করে নিন... 
